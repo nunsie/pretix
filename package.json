@@ -20,5 +20,28 @@
   "bugs": {
     "url": "https://github.com/nunsie/pretix/issues"
   },
-  "homepage": "https://github.com/nunsie/pretix#readme"
+  "homepage": "https://github.com/nunsie/pretix#readme",
+  "dependencies": {
+    "@semantic-release/changelog": "^3.0.2",
+    "@semantic-release/commit-analyzer": "^6.1.0",
+    "@semantic-release/git": "^7.0.8",
+    "@semantic-release/npm": "^5.1.4",
+    "@semantic-release/release-notes-generator": "^7.1.4",
+    "semantic-release": "^15.13.3"
+  },
+  "release": {
+    "branch": "develop",
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      [
+        "@semantic-release/npm",
+        {
+          "npmPublish": false
+        }
+      ],
+      "@semantic-release/git"
+    ]
+  }
 }
