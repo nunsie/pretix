@@ -1,0 +1,24 @@
+{
+  "name": "pretix",
+  "version": "1.0.0",
+  "description": "NodeJS API wrapper for pretix.eu",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nunsie/pretix.git"
+  },
+  "keywords": [
+    "pretix",
+    "api",
+    "wrapper"
+  ],
+  "author": "Nusrath Khan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nunsie/pretix/issues"
+  },
+  "homepage": "https://github.com/nunsie/pretix#readme"
+}
